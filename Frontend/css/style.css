@@ -1,0 +1,39 @@
+header{
+    background-color: #4454DB;
+    color: white;
+}
+select{
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;    
+}
+
+#dropdown-section{
+    margin: 30px;
+}
+
+#details{
+    margin: 30px;
+    text-align: center;
+}
+
+#labels{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #4454DB;
+    color: white;
+    border-radius: 20px;
+}
+
+.country-details div{
+    border: 1px black solid;
+    padding: 5px;
+}
+
+

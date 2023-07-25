@@ -1,0 +1,1 @@
+En caso de que haya sido necesario usar lógica de servidor, se creó esta carpeta.

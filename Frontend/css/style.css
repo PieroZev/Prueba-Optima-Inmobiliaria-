@@ -1,6 +1,10 @@
 header{
-    background-color: #4454DB;
+    background-color: black;
     color: white;
+}
+header img{
+    float: left;
+    padding: 10px;
 }
 select{
     width: 300px;
@@ -20,13 +24,17 @@ h1{
     text-align: center;
 }
 
+h2,h4{
+    text-align: left;
+}
+
 #labels{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #4454DB;
+    background-color: black;
     color: white;
     border-radius: 20px;
 }
@@ -34,6 +42,29 @@ h1{
 .country-details div{
     border: 1px black solid;
     padding: 5px;
+    margin-bottom: 20px;
+}
+
+.country-details div:hover{
+    background-color: gray;
+    color: white;
+}
+
+.country-details a{
+    color: black;
+}
+
+.country-details a:hover{
+    color: white;
+}
+
+@media (max-width:600px) {
+    h4{
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
 }
 
 
